@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <!-- ??3?meta??*??*?????????????*??*????? -->
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
 
-        <title>Narrow Jumbotron Template for Bootstrap</title>
+        <title>MyBlog-About</title>
 
         <!-- Bootstrap core CSS -->
         <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -34,21 +33,33 @@
 
     <body>
 
-        <div class="container">
-            <div class="header clearfix">
-                <nav>
-                    <ul class="nav nav-pills pull-right">
-                        <li role="presentation" class="active"><a href="index.html">首页</a></li>
-                        <li role="presentation"><a href="news.html">新闻</a></li>
-                        <li role="presentation"><a href="#">关于</a></li>
-                        <li role="presentation"><a href="login.html">登陆</a></li>
-                    </ul>
-                    
-                </nav>
-                <!--<h3 class="text-muted">Project name</h3> -->
-                <img src="img/logo.png" height="50"/>
-            </div>
+        <header class="site__header navbar-fixed-top">
+            <div class="nav__contain">
+                <div class="container">
+                    <div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="list-inline nav--primary u-uppercase">
+                                <li><a class="nav--primary__link" href="index.jsp">Home</a></li>
+                                <li><a class="nav--primary__link" href="NBA.jsp">NBA</a></li>
+                                <li><a class="nav--primary__link" href="Book Review.jsp">Book Review</a></li>
+                                <li><a class="nav--primary__link" href="Coding.jsp">Coding</a></li>
+                                <li><a class="nav--primary__link" href="About.jsp">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </header>
+        
+        
             <!--<div class="jumbotron">
                 <h1>Jumbotron heading</h1>
                 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -66,25 +77,25 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/p1-1.png" alt=""/>
+                        <img src="img/NBA (23).jpg" alt=""/>
                         <div class="carousel-caption">
                             ...
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/p1-2.png" alt=""/>
+                        <img src="img/NBA (2).jpg" alt=""/>
                         <div class="carousel-caption">
                             ...
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/p1-3.png" alt=""/>
+                        <img src="img/NBA (13).jpg" alt=""/>
                         <div class="carousel-caption">
                             ...
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/p1-4.png" alt=""/>
+                        <img src="img/NBA (14).jpg" alt=""/>
                         <div class="carousel-caption">
                             ...
                         </div>
